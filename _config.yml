@@ -2,10 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Seungkyun Dan
+first_name: Seungkyun
+middle_name:
+last_name: Dan
+email: ekstmdrbs@snu.ac.kr
+contact_note: >
+  You can even add a little note about which of these is the best way to reach you.
+
+description: >
+  System Software & AI Inference Optimization Researcher. Undergraduate at SNU ECE.
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
