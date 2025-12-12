@@ -7,14 +7,14 @@ subtitle: <a href='#'>System Software & AI Inference</a>. SNU ECE.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # true로 하면 원형으로 잘립니다
+  image_circular: false
   address: >
     <p>Seoul National University</p>
     <p>Seoul, Rep. of Korea</p>
 
-news: true  # 뉴스를 켜두면 아래에 자동으로 뜹니다
-selected_papers: true # 나중에 논문 목록 중 'selected=true'인 것만 메인에 띄웁니다
-social: true  # 이메일, 깃헙 아이콘 표시
+news: true
+selected_papers: true
+social: true
 ---
 
 I am a senior undergraduate student in the Department of **Electrical and Computer Engineering** at **Seoul National University**.
