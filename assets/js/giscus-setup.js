@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "ekstmdrbs/seungkyun-dan.github.io",
+    "data-repo": "seungkyun-dan/seungkyun-dan.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
