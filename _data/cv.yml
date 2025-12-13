@@ -29,7 +29,7 @@
   type: time_table
   contents:
     - title: Undergraduate Research Intern
-      institution: SCALE Lab, SNU (Advisor: Prof. Jungho Ahn)
+      institution: "SCALE Lab, SNU (Advisor: Prof. Jungho Ahn)"
       year: Jun. 2025 – Present
       description:
         - title: nano-vLLM
@@ -39,7 +39,7 @@
           contents:
             - Designed and implemented a serving pipeline for Diffusion Language Models.
     - title: Undergraduate Research Intern
-      institution: AIDAS Lab, SNU (Advisor: Prof. Jaeyoung Do)
+      institution: "AIDAS Lab, SNU (Advisor: Prof. Jaeyoung Do)"
       year: Jan. 2025 – Mar. 2025
       description:
         - Investigated cloud computing systems and data storage.
