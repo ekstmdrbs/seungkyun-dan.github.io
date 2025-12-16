@@ -1,105 +1,105 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Seungkyun Dan
-    - name: Email
-      value: ekstmdrbs@snu.ac.kr
-    - name: Phone
-      value: (+82) 10-2125-4881
-    - name: Languages
-      value: English (Fluent), Japanese (Intermediate), Korean (Native)
-
-- title: Education
-  type: time_table
-  contents:
-    - title: B.S. in Electrical and Computer Engineering
-      institution: Seoul National University (SNU), Seoul, S. Korea
-      year: Mar. 2020 – Aug. 2026
-      description:
-        - GPA: 4.01/4.30
-        - Military service: 2-year leave of absence
-    - title: High School for Gifted Students in Science and Mathematics
-      institution: Daejeon Science High School for the Gifted (DSHS), Daejeon, S. Korea
-      year: Mar. 2017 – Mar. 2020
-      description:
-        - Top student, senior year
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Undergraduate Research Intern
-      institution: "SCALE Lab, SNU (Advisor: Prof. Jungho Ahn)"
-      year: Jun. 2025 – Present
-      description:
-        - title: nano-vLLM
-          contents:
-            - Extended support for other models; implemented speculative decoding (EAGLE).
-        - title: Diffusion LM Serving
-          contents:
-            - Designed and implemented a serving pipeline for Diffusion Language Models.
-    - title: Undergraduate Research Intern
-      institution: "AIDAS Lab, SNU (Advisor: Prof. Jaeyoung Do)"
-      year: Jan. 2025 – Mar. 2025
-      description:
-        - Investigated cloud computing systems and data storage.
-        - Investigated Data Lakehouse systems (Delta Lake, Deep Lake) and proposed a hierarchical metadata.
-
-- title: Projects
-  type: time_table
-  contents:
-    - title: RISC-V CPU
-      institution: Computer Organization Term Project
-      year: Mar. 2025 – Jun. 2025
-      description:
-        - Implemented a 32-bit RISC-V CPU in Verilog, evolving from a basic single-cycle core to a pipelined design.
-        - Integrated a perceptron branch predictor to reduce mispredictions on branch-heavy workloads.
-    - title: x86 Operating System
-      institution: Operating Systems Term Project
-      year: Mar. 2025 – Jun. 2025
-      description:
-        - Built an x86 OS in C with inline assembly, implementing synchronized context switching.
-        - Implemented components from HAL to kernel subsystems: timer, scheduler, semaphore, task management, and interrupts.
-    - title: Ensemble / Neural Network Model
-      institution: Machine Learning Term Project
-      year: Mar. 2025 – Jun. 2025
-      description:
-        - Engineered features and trained ensemble and neural network models for supervised learning tasks.
-    - title: Networking for AI via WebRTC
-      institution: Data Communication Networks Term Project
-      year: Aug. 2024 – Dec. 2024
-      description:
-        - Implemented an HTTP server using C sockets.
-        - Integrated DNN inference into the WebRTC pipeline for low-latency processing.
-    - title: SNU fastMRI Challenge
-      institution: MRI Reconstruction
-      year: Jul. 2024 – Aug. 2024
-      description:
-        - Integrated an additional VarNet on existing model in latent space; improved SSIM by approximately 5%.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: Jan. 2021 – Jan. 2025
-      items:
-        - Scholarships for Academic Excellence, SNU ECE (Received merit-based scholarships across three semesters)
-
-- title: Extracurricular Activity
-  type: time_table
-  contents:
-    - title: Military Service
-      institution: Republic of Korea Air Force
-      year: Feb. 2022 – Nov. 2023
-      description:
-        - Completed mandatory military service in Air Force Operations Command.
-    - title: Volunteer
-      institution: Love and Peace Shelter
-      year: Mar. 2014 – Jan. 2022
-      description:
-        - Taught and supported daycare programs on a regular basis approximately for ten years.
-
-- title: Skills
-  type: list
-  contents:
-    - <u>Programming:</u> C, C++, Python (PyTorch), Verilog
-    - <u>Tools:</u> NVIDIA Nsight Systems, Intel® VTune Profiler, Intel MLC
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Seungkyun Dan
+#     - name: Email
+#       value: ekstmdrbs@snu.ac.kr
+#     - name: Phone
+#       value: (+82) 10-2125-4881
+#     - name: Languages
+#       value: English (Fluent), Japanese (Intermediate), Korean (Native)
+# 
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: B.S. in Electrical and Computer Engineering
+#       institution: Seoul National University (SNU), Seoul, S. Korea
+#       year: Mar. 2020 – Aug. 2026
+#       description:
+#         - GPA: 4.01/4.30
+#         - Military service: 2-year leave of absence
+#     - title: High School for Gifted Students in Science and Mathematics
+#       institution: Daejeon Science High School for the Gifted (DSHS), Daejeon, S. Korea
+#       year: Mar. 2017 – Mar. 2020
+#       description:
+#         - Top student, senior year
+# 
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Undergraduate Research Intern
+#       institution: "SCALE Lab, SNU (Advisor: Prof. Jungho Ahn)"
+#       year: Jun. 2025 – Present
+#       description:
+#         - title: nano-vLLM
+#           contents:
+#             - Extended support for other models; implemented speculative decoding (EAGLE).
+#         - title: Diffusion LM Serving
+#           contents:
+#             - Designed and implemented a serving pipeline for Diffusion Language Models.
+#     - title: Undergraduate Research Intern
+#       institution: "AIDAS Lab, SNU (Advisor: Prof. Jaeyoung Do)"
+#       year: Jan. 2025 – Mar. 2025
+#       description:
+#         - Investigated cloud computing systems and data storage.
+#         - Investigated Data Lakehouse systems (Delta Lake, Deep Lake) and proposed a hierarchical metadata.
+# 
+# - title: Projects
+#   type: time_table
+#   contents:
+#     - title: RISC-V CPU
+#       institution: Computer Organization Term Project
+#       year: Mar. 2025 – Jun. 2025
+#       description:
+#         - Implemented a 32-bit RISC-V CPU in Verilog, evolving from a basic single-cycle core to a pipelined design.
+#         - Integrated a perceptron branch predictor to reduce mispredictions on branch-heavy workloads.
+#     - title: x86 Operating System
+#       institution: Operating Systems Term Project
+#       year: Mar. 2025 – Jun. 2025
+#       description:
+#         - Built an x86 OS in C with inline assembly, implementing synchronized context switching.
+#         - Implemented components from HAL to kernel subsystems: timer, scheduler, semaphore, task management, and interrupts.
+#     - title: Ensemble / Neural Network Model
+#       institution: Machine Learning Term Project
+#       year: Mar. 2025 – Jun. 2025
+#       description:
+#         - Engineered features and trained ensemble and neural network models for supervised learning tasks.
+#     - title: Networking for AI via WebRTC
+#       institution: Data Communication Networks Term Project
+#       year: Aug. 2024 – Dec. 2024
+#       description:
+#         - Implemented an HTTP server using C sockets.
+#         - Integrated DNN inference into the WebRTC pipeline for low-latency processing.
+#     - title: SNU fastMRI Challenge
+#       institution: MRI Reconstruction
+#       year: Jul. 2024 – Aug. 2024
+#       description:
+#         - Integrated an additional VarNet on existing model in latent space; improved SSIM by approximately 5%.
+# 
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: Jan. 2021 – Jan. 2025
+#       items:
+#         - Scholarships for Academic Excellence, SNU ECE (Received merit-based scholarships across three semesters)
+# 
+# - title: Extracurricular Activity
+#   type: time_table
+#   contents:
+#     - title: Military Service
+#       institution: Republic of Korea Air Force
+#       year: Feb. 2022 – Nov. 2023
+#       description:
+#         - Completed mandatory military service in Air Force Operations Command.
+#     - title: Volunteer
+#       institution: Love and Peace Shelter
+#       year: Mar. 2014 – Jan. 2022
+#       description:
+#         - Taught and supported daycare programs on a regular basis approximately for ten years.
+# 
+# - title: Skills
+#   type: list
+#   contents:
+#     - <u>Programming:</u> C, C++, Python (PyTorch), Verilog
+#     - <u>Tools:</u> NVIDIA Nsight Systems, Intel® VTune Profiler, Intel MLC

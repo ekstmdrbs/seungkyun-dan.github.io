@@ -1,3 +1,4 @@
+<!--
 ---
 layout: page
 title: SNU fastMRI Challenge
@@ -7,3 +8,5 @@ importance: 5
 category: work
 ---
 Integrated an additional VarNet on existing model in latent space; improved SSIM by approximately 5%.
+
+-->

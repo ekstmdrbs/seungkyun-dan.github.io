@@ -1,3 +1,4 @@
+<!--
 ---
 layout: page
 title: Networking for AI via WebRTC
@@ -8,3 +9,5 @@ category: work
 ---
 Implemented an HTTP server using C sockets.
 Integrated DNN inference into the WebRTC pipeline for low-latency processing.
+
+-->

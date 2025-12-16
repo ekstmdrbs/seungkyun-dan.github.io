@@ -1,3 +1,4 @@
+<!--
 ---
 layout: post
 title: Joined SCALE Lab
@@ -7,3 +8,5 @@ related_posts: false
 ---
 
 Joined **SCALE Lab** as an Undergraduate Research Intern.
+
+-->

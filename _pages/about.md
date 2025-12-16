@@ -12,10 +12,12 @@ profile:
     <p>Seoul National University</p>
     <p>Seoul, Rep. of Korea</p>
 
-news: true
-selected_papers: true
-social: true
+news: false
+selected_papers: false
+social: false
 ---
+
+<!--
 
 I am a senior undergraduate student in the Department of **Electrical and Computer Engineering** at **Seoul National University**.
 
@@ -35,3 +37,5 @@ Currently, I am an Undergraduate Research Intern at **SCALE Lab** (Advisor: Prof
 * **Jun 2025:** 🏢 Joined **SCALE Lab** as an Undergraduate Research Intern.
 * **Mar 2025:** 🛠️ Started developing a pipelined RISC-V CPU and x86 OS kernel.
 * **Jan 2025:** ☁️ Conducted research on Data Lakehouse systems at **AIDAS Lab**.
+
+-->

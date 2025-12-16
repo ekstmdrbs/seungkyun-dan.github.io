@@ -1,3 +1,4 @@
+<!--
 ---
 layout: post
 title: Joined AIDAS Lab
@@ -7,3 +8,5 @@ related_posts: false
 ---
 
 Conducted research on Data Lakehouse systems at **AIDAS Lab**.
+
+-->
