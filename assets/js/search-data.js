@@ -398,40 +398,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-conducted-research-on-data-lakehouse-systems-at-aidas-lab",
-          title: 'Conducted research on Data Lakehouse systems at AIDAS Lab.',
-          description: "",
-          section: "News",},{id: "news-joined-scale-lab-as-an-undergraduate-research-intern",
-          title: 'Joined SCALE Lab as an Undergraduate Research Intern.',
-          description: "",
-          section: "News",},{id: "news-submitted-a-preprint-on-dyllm-dynamic-diffusion-model-serving",
-          title: 'Submitted a preprint on DyLLM (Dynamic Diffusion Model Serving).',
-          description: "",
-          section: "News",},{id: "projects-risc-v-cpu",
-          title: 'RISC-V CPU',
-          description: "Implemented a 32-bit RISC-V CPU in Verilog, evolving from a basic single-cycle core to a pipelined design.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_riscv_cpu/";
-            },},{id: "projects-x86-operating-system",
-          title: 'x86 Operating System',
-          description: "Built an x86 OS in C with inline assembly, implementing synchronized context switching.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_x86_os/";
-            },},{id: "projects-ensemble-neural-network-model",
-          title: 'Ensemble / Neural Network Model',
-          description: "Engineered features and trained ensemble and neural network models for supervised learning tasks.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_ml_model/";
-            },},{id: "projects-networking-for-ai-via-webrtc",
-          title: 'Networking for AI via WebRTC',
-          description: "Implemented an HTTP server using C sockets and integrated DNN inference into WebRTC.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_webrtc/";
-            },},{id: "projects-snu-fastmri-challenge",
-          title: 'SNU fastMRI Challenge',
-          description: "Integrated an additional VarNet on existing model in latent space; improved SSIM by approximately 5%.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_fastmri/";
             },},{
         id: 'social-cv',
         title: 'CV',
