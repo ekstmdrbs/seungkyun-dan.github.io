@@ -14,7 +14,7 @@ profile:
 
 news: false
 selected_papers: false
-social: true
+social: false
 ---
 
 **"Never fear to challenge"**
