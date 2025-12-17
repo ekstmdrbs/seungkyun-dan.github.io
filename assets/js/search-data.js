@@ -398,7 +398,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{
+            },},{id: "news-joined-aidas-lab-as-an-undergraduate-research-intern-advised-by-prof-jaeyoung-do",
+          title: 'Joined AIDAS Lab as an Undergraduate Research Intern, advised by Prof. Jaeyoung Do....',
+          description: "",
+          section: "News",},{id: "news-joined-scale-lab-as-an-undergraduate-research-intern-advised-by-prof-jungho-ahn",
+          title: 'Joined SCALE Lab as an Undergraduate Research Intern, advised by Prof. Jungho Ahn....',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
