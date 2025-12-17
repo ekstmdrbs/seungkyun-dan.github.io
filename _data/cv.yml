@@ -7,99 +7,110 @@
       value: ekstmdrbs@snu.ac.kr
     - name: Phone
       value: (+82) 10-2125-4881
-    - name: Languages
-      value: English (Fluent), Japanese (Intermediate), Korean (Native)
+    - name: Research Interests
+      value: LLM Inference Optimization, Computer Architecture, System Software
 
 - title: Education
   type: time_table
   contents:
     - title: B.S. in Electrical and Computer Engineering
-      institution: Seoul National University (SNU), Seoul, S. Korea
+      institution: SNU (Seoul National University), Seoul, S. Korea
       year: Mar. 2020 – Aug. 2026
       description:
         - GPA: 4.01/4.30
-        - Military service: 2-year leave of absence
     - title: High School for Gifted Students in Science and Mathematics
-      institution: Daejeon Science High School for the Gifted (DSHS), Daejeon, S. Korea
+      institution: DSHS (Daejeon Science High School for the Gifted), Daejeon, S. Korea
       year: Mar. 2017 – Mar. 2020
-      description:
-        - Top student, senior year
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
     - title: Undergraduate Research Intern
-      institution: "SCALE Lab, SNU (Advisor: Prof. Jungho Ahn)"
+      institution: "SCALE Lab (Advisor: Prof. Jungho Ahn), Seoul, S. Korea"
       year: Jun. 2025 – Present
       description:
-        - title: nano-vLLM
+        - title: Diffusion Language Model Framework
           contents:
-            - Extended support for other models; implemented speculative decoding (EAGLE).
-        - title: Diffusion LM Serving
+            - Co-designed a dLLM inference engine (Paper in preparation for ACL)
+            - Engineered a Triton sampler for continuous batching, utilizing an asynchronous pipeline to achieve a 10x speedup in sampling stage.
+        - title: Nano-vLLM Feature Extension
           contents:
-            - Designed and implemented a serving pipeline for Diffusion Language Models.
+            - Ported additional model family (Llama) and speculative decoding framework (EAGLE) to Nano-vLLM and analyzed performance bottlenecks in lightweight serving.
     - title: Undergraduate Research Intern
-      institution: "AIDAS Lab, SNU (Advisor: Prof. Jaeyoung Do)"
+      institution: "AIDAS Lab (Advisor: Prof. Jaeyoung Do), Seoul, S. Korea"
       year: Jan. 2025 – Mar. 2025
       description:
-        - Investigated cloud computing systems and data storage.
-        - Investigated Data Lakehouse systems (Delta Lake, Deep Lake) and proposed a hierarchical metadata.
+        - Investigated cloud computing systems and data storage architectures.
+        - Investigated Data Lakehouse systems (Delta Lake, Deep Lake) and proposed a hierarchical metadata scheme.
 
 - title: Projects
   type: time_table
   contents:
+    - title: CNN Accelerator on FPGA
+      institution: Digital Systems Design
+      year: Sep. 2025 – Dec. 2025
+      description:
+        - Implemented CNN Accelerator in Verilog with im2col and pipelined pooling.
+        - Synthesized on FPGA board, achieving 4x speedup in computation over naive software implementation.
     - title: RISC-V CPU
       institution: Computer Organization Term Project
       year: Mar. 2025 – Jun. 2025
       description:
-        - Implemented a 32-bit RISC-V CPU in Verilog, evolving from a basic single-cycle core to a pipelined design.
+        - Implemented a 32-bit RISC-V CPU in Verilog, evolving from a basic single-cycle core to a 5-stage pipelined design.
         - Integrated a perceptron branch predictor to reduce mispredictions on branch-heavy workloads.
-    - title: x86 Operating System
+    - title: Cycle-level Memory Hierarchy Simulator
+      institution: Computer Organization Term Project
+      year: Mar. 2025 – Jun. 2025
+      description:
+        - Developed a trace-driven, cycle-level timing simulator for a multi-level cache hierarchy in C++ with inclusion policy and back-invalidation logic.
+        - Modeled non-blocking memory requests using MSHRs to handle multiple outstanding transactions.
+    - title: x86-like Operating System
       institution: Operating Systems Term Project
       year: Mar. 2025 – Jun. 2025
       description:
-        - Built an x86 OS in C with inline assembly, implementing synchronized context switching.
+        - Built an x86-like OS in C with inline assembly, implementing synchronized context switching.
         - Implemented components from HAL to kernel subsystems: timer, scheduler, semaphore, task management, and interrupts.
-    - title: Ensemble / Neural Network Model
+    - title: Predictive Modeling for Power Usage
       institution: Machine Learning Term Project
       year: Mar. 2025 – Jun. 2025
       description:
-        - Engineered features and trained ensemble and neural network models for supervised learning tasks.
+        - Engineered features and trained ensemble models to forecast electricity consumption, achieving top 5% performance in the final competition.
     - title: Networking for AI via WebRTC
       institution: Data Communication Networks Term Project
       year: Aug. 2024 – Dec. 2024
       description:
         - Implemented an HTTP server using C sockets.
-        - Integrated DNN inference into the WebRTC pipeline for low-latency processing.
-    - title: SNU fastMRI Challenge
-      institution: MRI Reconstruction
-      year: Jul. 2024 – Aug. 2024
-      description:
-        - Integrated an additional VarNet on existing model in latent space; improved SSIM by approximately 5%.
+        - Integrated real-time DNN inference into the WebRTC pipeline for low-latency processing.
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: Jan. 2021 – Jan. 2025
       items:
-        - Scholarships for Academic Excellence, SNU ECE (Received merit-based scholarships across three semesters)
+        - Scholarships for Academic Excellence, SNU ECE (Received merit-based scholarships for academic excellence (3 Semesters))
 
 - title: Extracurricular Activity
   type: time_table
   contents:
+    - title: Volunteer
+      institution: Love and Peace Shelter Member
+      year: Mar. 2014 – Jan. 2022
+      description:
+        - Taught and supported daycare programs on a regular basis for approximately eight years.
     - title: Military Service
       institution: Republic of Korea Air Force
       year: Feb. 2022 – Nov. 2023
       description:
         - Completed mandatory military service in Air Force Operations Command.
-    - title: Volunteer
-      institution: Love and Peace Shelter
-      year: Mar. 2014 – Jan. 2022
-      description:
-        - Taught and supported daycare programs on a regular basis approximately for ten years.
 
-- title: Skills
-  type: list
+- title: Skills & Languages
+  type: map
   contents:
-    - <u>Programming:</u> C, C++, Python (PyTorch), Verilog
-    - <u>Tools:</u> NVIDIA Nsight Systems, Intel® VTune Profiler, Intel MLC
+    - name: Programming
+      value: C, C++, Python, Verilog, SystemVerilog, CUDA, Triton
+    - name: Frameworks & Libraries
+      value: PyTorch, vLLM, DeepSpeed
+    - name: Tools
+      value: NVIDIA Nsight Systems, Intel® VTune Profiler, Git, Linux
+    - name: Languages
+      value: English (Fluent), Korean (Native)
