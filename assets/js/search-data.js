@@ -406,13 +406,6 @@ ninja.data = [{
           window.open("mailto:%65%6B%73%74%6D%64%72%62%73@%73%6E%75.%61%63.%6B%72", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/seungkyun-dan", "_blank");
-        },
-      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
