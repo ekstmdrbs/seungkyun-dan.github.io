@@ -12,7 +12,9 @@ profile:
     <p>Seoul National University</p>
     <p>Seoul, Rep. of Korea</p>
 
-news: True
+news: false
+announcements:
+  enabled: true
 selected_papers: false
 social: false
 
