@@ -24,4 +24,4 @@ I am a senior undergraduate student in the Department of **Electrical and Comput
 
 My research interests lie at the intersection of **System Software** and **Computer Architecture**, with a specific focus on **Inference Optimization for Generative AI** (Large Language Models). I am passionate about bridging the gap between hardware constraints and algorithmic efficiency to build scalable serving systems.
 
-Currently, I am an Undergraduate Research Intern at **SCALE Lab** (Advisor: Prof. Jungho Ahn)
+Currently, I am an Undergraduate Research Intern at **SCALE Lab** advised by Professor Jungho Ahn
